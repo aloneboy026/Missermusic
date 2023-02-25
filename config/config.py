@@ -69,7 +69,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "(SUPPORT_CHANNEL", None 
 )  # Example:- https://t.me/team_comrades
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
@@ -139,7 +139,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION1", "BQAqEre5eMBtohYlbN43OTuoE867y0qYjM988GGf4tonTioL3cwtnJRMmALuORQb0pQf94ExDm0m7t2dW6zT8OxCOKAez2CUxFkGsYkIKjyPGqwK62FwuQGuNvDv926Q4bxPHpwZq-yl9-oAiE-IJBHwY-0g1bg1-cB1w-BgYTwLeVMKjgWJ9MTBaXexbk1b0oB6STbyLZYlBAwzouTXPWEHAFNZ87xfOtwaWBPxXrx7wQGkLwll5tbjeEW7DdoXHwWYrq4B0WuUkPXr0xQOzZGhTHC89rD2ZZCGmm1K-_HVgGt6twsUejtTKhHTToDv_nQPkBJktI94NnScJ0LZGJUKdkSlBgA")
+STRING1 = getenv("STRING_SESSION1", "BQBGRffRoFUqJWBokVJ_TB2aq5tA0wYZScq7YFVEjN_17GwrgoFG-Dd_I3zVWIdN8iYXaccuaTGOjp-wlIdfrcztJMIwspit6GmLplpndYeb3EwWhvTZrt3oOkBaHm0soWb1Z5fCNDLLyYNhkuyUlSqbAb57pGrrfb-lEK5Q8CrTs7C2y9svuBpgnldK7XbeRrDF-tdRXtG65_V0cSOr3aBBT-aQnG3GsK99u5IokaFAd5Nrw2cRt1bN3fR0p6rv3JAWWDDnKMQx6PDOlFJomKMSglXOPAgvh1B1FvBTMWkf7dsLSHrobHbfJ5vQe35IE--s9g3yIb4k4cIHPdghjSotdkSlBgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
